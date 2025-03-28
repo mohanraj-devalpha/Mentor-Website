@@ -1,0 +1,91 @@
+import React from 'react'
+import Image_1 from "../assets/Person_103.png"
+import Image_2 from "../assets/Person_102.png"
+import Image_3 from "../assets/Person_101.png"
+import Image_4 from "../assets/Person_104.png"
+import Star from "../assets/Star_101.png"
+
+const Home = () => {
+  return (
+    <div>
+        <div className='flex flex-col justify-evenly overflow-hidden border-2 my-5 min-[1400px]:my-20 mx-5 min-[1400px]:mx-20 '>
+            <h1 className=' font-bold text-4xl md:text-6xl lg:text-7xl text-center py-10 '>Find your right mentor</h1>
+            <div className='grid grid-cols-1 min-[1400px]:grid-cols-2 '>
+                <div className=' border-t border-r '>
+                        <div className='  space-y-10 mx-20 max-[725px]:mx-10 max-[394px]:mx-5 py-10'>
+                            <div className='flex flex-col  gap-2  max-[350px]:text-center'>
+                                <span className='text-6xl max-[725px]:text-4xl max-[528px]:text-2xl font-bold'>Learn from experts</span>
+                                <span className='text-6xl max-[725px]:text-4xl max-[528px]:text-2xl font-bold max-[350px]:text-center'>Grow your careers</span>
+                            </div>
+                            <p className='text-3xl max-[725px]:text-2xl max-[528px]:text-xl  pr-10 max-[453px]:px-5 max-[400px]:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Faucibus in libero risus semper habitant arcu eget. Et integer.</p>
+                            <button className='bg-[#333333]  text-white py-3 px-9 text-2xl max-[528px]:text-xl max-[355px]:text-base rounded-full shadow-[5px_10px_0px_rgba(0,0,0,1)]'>Explore our mentors</button>
+                        </div>
+                        <div className="rounded-xl grid sm:grid-cols-1 md:grid-cols-2 text-xl sm:text-lg gap-10 px-5 sm:px-5 md:px-10 py-10 mx-5 md:ml-20 md:mr-40 my-10 border-2 border-[#333333]">
+                                <div className="py-5 flex flex-col items-center text-center">
+                                    <span className="font-bold text-2xl">34+</span>
+                                    <span> Lorem ipsum dolor sit consectetur adipiscing </span>
+                                </div>
+                                <div className="py-5 flex flex-col items-center text-center">
+                                    <span className="font-bold text-2xl">245K</span>
+                                    <span> Lorem ipsum dolor sit consectetur adipiscing </span>
+                                </div>
+                                <div className="py-5 flex flex-col items-center text-center">
+                                    <span className="font-bold text-2xl border-t-4 border-gray-500 pt-3">15+</span>
+                                    <span> Lorem ipsum dolor sit consectetur adipiscing </span>
+                                </div>
+                                <div className="py-5 flex flex-col items-center text-center">
+                                    <span className="font-bold text-2xl border-t-4 border-gray-500 pt-3">4.89</span>
+                                    <span>Lorem ipsum dolor sit consectetur adipiscing</span>
+                                </div>
+                            </div>
+
+                            </div>
+                <div className="relative grid sm:grid-cols-1 md:grid-cols-2 gap-4 border-t p-4">
+                    <div className="relative flex justify-center items-center">
+                        <img src={Star} alt="Star" className="w-full max-w-[400px] object-cover" />
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 text-black text-2xl font-bold text-center p-4">
+                            <span className="block">Anything</span>
+                            <span className="block">Anywhere</span>
+                            <span className="block">Anytime</span>
+                        </div>
+                    </div>
+                
+                    <img src={Image_2} alt="Person 2" className="w-full max-w-[400px] object-cover mx-auto" />
+                    <img src={Image_4} alt="Person 4" className="w-full row-span-2 max-w-[400px] object-cover mx-auto" />
+
+                    <img src={Image_1} alt="Person 1" className="w-full max-w-[400px] object-cover mx-auto" />
+                    <img src={Image_3} alt="Person 3" className="w-full max-w-[400px] object-cover mx-auto" />
+                
+                    
+                </div>
+                {/* <div className='border-t grid grid-cols-2 max-[776px]:grid-cols-1 gap-10 max-[776px]:gap-4'>
+    <div className='grid grid-rows-2 relative mx-auto'>
+        <div className="relative max-w-[400px] ">
+            <img src={Star} alt="Star" className="object-cover w-full mt-30" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-black text-2xl font-bold">
+                <span className="block">Anything</span>
+                <span className="block">Anywhere</span>
+                <span className="block">Anytime</span>
+            </div>
+        </div>
+
+        <img src={Image_4} alt="Person 4" className="max-w-[400px] object-cover mx-auto" />
+    </div>
+    
+    <div className='grid grid-rows-3 gap-4'>
+        <img src={Image_2} alt="Person 2" className="max-w-[400px] object-cover mx-auto" />
+        <img src={Image_1} alt="Person 1" className="max-w-[400px] object-cover mx-auto" />
+        <img src={Image_3} alt="Person 3" className="max-w-[400px] object-cover mx-auto" />
+    </div>
+</div>
+ */}
+
+            </div>
+        </div>
+      
+    </div>
+  )
+}
+
+export default Home
