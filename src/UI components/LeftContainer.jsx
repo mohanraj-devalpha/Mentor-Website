@@ -37,9 +37,6 @@ const LeftContainer = () => {
                                     </div>
                                 </div>
                             </div>
-    
-    
-    
                                 </div>
       
     </div>
