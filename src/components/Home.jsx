@@ -21,7 +21,7 @@ const Home = () => {
                                 Faucibus in libero risus semper habitant arcu eget. Et integer.</p>
                             <button className='bg-[#333333]  text-white py-3 px-9 text-2xl max-[528px]:text-xl max-[355px]:text-base rounded-full shadow-[5px_10px_0px_rgba(0,0,0,0.7)]'>Explore our mentors</button>
                         </div>
-                        <div className="rounded-xl grid grid-cols-1 md:grid-cols-2  mt-10 md:mt-7 mx-5 md:mx-20 border-2 border-[#333333] p-5">
+                        <div className="rounded-xl grid grid-cols-1 md:grid-cols-2  mt-10 md:mt-4 mx-5 md:mx-20 border-2 border-[#333333] p-5">
                             <div className="flex flex-col gap-5 p-5 max-[300px]:items-center">
                                 <div className="flex flex-col max-[300px]:items-center">
                                     <span className="font-bold text-2xl pt-3">34</span>
