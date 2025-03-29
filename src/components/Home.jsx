@@ -10,7 +10,7 @@ const Home = () => {
     <div>
         <div className='flex flex-col justify-evenly bg-[#FFFFFF] overflow-hidden border-2 my-5 min-[1400px]:my-20 mx-5 min-[1400px]:mx-20 '>
             <h1 className='text-4xl md:text-6xl lg:text-8xl text-center py-7 '>Find your right mentor</h1>
-            <div className='grid grid-cols-1 min-[1400px]:grid-cols-2 max-[1400px]:gap-10 '>
+            <div className='grid grid-cols-1 min-[1400px]:grid-cols-2 max-[1400px]:gap-10 mb-2'>
                 <div className=' border-t border-r '>
                         <div className='  space-y-18 mx-20 max-[725px]:mx-10 max-[394px]:mx-5 py-10'>
                             <div className='flex flex-col  gap-2  max-[350px]:text-center'>
