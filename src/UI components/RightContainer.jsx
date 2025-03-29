@@ -8,7 +8,7 @@ import Star from "../assets/Star_102.png"
 const RightContainer = () => {
   return (
     <div>
-        <div className="grid sm:grid-rows-1 md:grid-rows-2 gap-4 border-t ">
+        <div className="grid sm:grid-rows-1 md:grid-rows-2 gap-5 border-t ">
             {/* top */}
             <div className='grid grid-cols-2 place-items-center ]'>
                 <img src={Star} alt="" className='h-full'/>
@@ -27,11 +27,7 @@ const RightContainer = () => {
         <img src={Image_2} alt="Person 2" className="w-full h-full max-w-[400px] object-cover mx-auto" />
 
 
-            </div>
-            
-                            
-                        
-                            
+            </div>    
                         </div>
       
     </div>
