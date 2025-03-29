@@ -21,7 +21,7 @@ const RightContainer = () => {
             {/* bottom */}
             <div className='grid grid-cols-2 gap-2 row-span-20 h-full'>
             <img src={Image_4} alt="Person 4" className="w-full row-span-2 h-full max-w-[400px] object-cover mx-auto" />
-            <img src={Image_3} alt="Person 3" className="w-full max-w-[400px] object-cover mx-auto my-auto"/> 
+            <img src={Image_3} alt="Person 3" className="w-full h-full max-w-[400px] object-cover mx-auto my-auto"/> 
 
         
         <img src={Image_2} alt="Person 2" className="w-full h-full max-w-[400px] object-cover mx-auto" />
