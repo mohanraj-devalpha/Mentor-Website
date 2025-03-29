@@ -5,7 +5,7 @@ const LeftContainer = () => {
     <div>
                             <div className=' border-t border-r h-full '>
                             <div className='  space-y-18 mx-20 max-[725px]:mx-10 max-[394px]:mx-5 py-10'>
-                                <div className='flex flex-col  gap-2  max-[350px]:text-center'>
+                                <div className='flex flex-col font-weigh gap-2  max-[350px]:text-center'>
                                     <span className='text-6xl max-[725px]:text-4xl max-[528px]:text-2xl '>Learn from experts</span>
                                     <span className='text-6xl max-[725px]:text-4xl max-[528px]:text-2xl max-[350px]:text-center'>Grow your careers</span>
                                 </div>
